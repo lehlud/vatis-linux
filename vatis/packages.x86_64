@@ -141,7 +141,7 @@ ttf-ubuntu-font-family
 
 # desktop packages
 arc-gtk-theme
-gdm
+lxde
 papirus-icon-theme
 xfce4
 xorg
