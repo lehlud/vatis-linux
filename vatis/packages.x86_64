@@ -118,13 +118,35 @@ xfsprogs
 xl2tpd
 zsh
 
-# some kernel packages
+# kernel packages
 linux-headers
 
-# some basic packages
+# basic packages
 base-devel
 
+# terminal and shell packages
+fish
+
+# font packages
+noto-fonts
+ttf-dejavu
+ttf-fira-code
+ttf-fira-mono
+ttf-fira-sans
+ttf-font-awesome
+ttf-hack
+ttf-roboto
+ttf-ubuntu-font-family
+
+
 # desktop packages
-xorg
-sddm
+arc-gtk-theme
+gdm
+papirus-icon-theme
 xfce4
+xorg
+
+# basic applications
+firefox
+libreoffice-fresh
+thunderbird
