@@ -123,9 +123,11 @@ linux-headers
 
 # basic packages
 base-devel
+python
 
 # terminal and shell packages
 fish
+alacritty
 
 # font packages
 noto-fonts
@@ -143,7 +145,7 @@ ttf-ubuntu-font-family
 arc-gtk-theme
 bspwm
 papirus-icon-theme
-gdm
+lightdm
 xfce4
 xorg
 
@@ -151,3 +153,8 @@ xorg
 firefox
 libreoffice-fresh
 thunderbird
+
+# packages required by calamares
+frameworkintegration
+kpmcore
+yaml-cpp
