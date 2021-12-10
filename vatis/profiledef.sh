@@ -2,7 +2,7 @@
 # shellcheck disable=SC2034
 
 iso_name="vatislinux"
-iso_label="VATIS_$(date +%Y%m)"
+iso_label="VATIS_$(date +%Y-%m-%d)"
 iso_publisher="Vatis Linux <https://github.com/Luddifee/vatis-linux>"
 iso_application="Vatis Linux Live/Rescue CD"
 iso_version="$(date +%Y.%m.%d)"
@@ -18,6 +18,7 @@ file_permissions=(
   ["/etc/gshadow"]="0:0:0400"
   ["/root"]="0:0:750"
   ["/root/.automated_script.sh"]="0:0:755"
+  ["/usr/local/bin/calamares"]="0:0:755"
   ["/usr/local/bin/choose-mirror"]="0:0:755"
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"

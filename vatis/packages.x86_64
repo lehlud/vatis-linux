@@ -143,9 +143,7 @@ ttf-ubuntu-font-family
 
 # desktop packages
 arc-gtk-theme
-bspwm
 papirus-icon-theme
-lightdm
 xfce4
 xorg
 
@@ -157,4 +155,6 @@ thunderbird
 # packages required by calamares
 frameworkintegration
 kpmcore
+libpwquality
+qt5-base
 yaml-cpp
