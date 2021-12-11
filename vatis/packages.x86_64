@@ -118,11 +118,25 @@ xfsprogs
 xl2tpd
 zsh
 
+# chaotic-aur
+chaotic-mirrorlist
+chaotic-keyring
+
 # kernel packages
 linux-headers
 
-# basic packages
+# system packages
+acpi
+archlinux-keyring
 base-devel
+calc
+gvfs
+jq
+polkit
+powertop
+python
+
+# basic packages
 python
 
 # terminal and shell packages
@@ -131,6 +145,7 @@ alacritty
 
 # font packages
 noto-fonts
+noto-fonts-emoji
 ttf-dejavu
 ttf-fira-code
 ttf-fira-mono
@@ -139,7 +154,6 @@ ttf-font-awesome
 ttf-hack
 ttf-roboto
 ttf-ubuntu-font-family
-
 
 # desktop packages
 arc-gtk-theme
@@ -152,9 +166,16 @@ firefox
 libreoffice-fresh
 thunderbird
 
-# packages required by calamares
-frameworkintegration
-kpmcore
-libpwquality
-qt5-base
-yaml-cpp
+# calamares installer
+vatis-linux/calamares
+
+# virtualbox
+#virtualbox-guest-utils
+
+# vmware
+#open-vm-tools
+#xf86-input-vmmouse
+#xf86-video-vmware
+
+# basic applications
+gparted
