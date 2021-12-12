@@ -5,7 +5,7 @@ run:
 	run_archiso -i vatis_out/$(shell ls -t vatis_out | head -n1)
 
 clean:
-	rm -rf vatis_* /tmp/vatis_work_dir/
+	rm -rf /tmp/vatis_work_dir/
 
 # TRY TO NOT USE THIS
 clean-build-and-run:

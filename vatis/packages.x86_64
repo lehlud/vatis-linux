@@ -169,13 +169,10 @@ thunderbird
 # calamares installer
 vatis-linux/calamares
 
-# virtualbox
-#virtualbox-guest-utils
-
 # vmware
-#open-vm-tools
-#xf86-input-vmmouse
-#xf86-video-vmware
+open-vm-tools
+xf86-input-vmmouse
+xf86-video-vmware
 
 # basic applications
 gparted
