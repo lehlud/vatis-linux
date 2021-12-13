@@ -136,6 +136,11 @@ polkit
 powertop
 python
 
+# grub packages
+grub
+os-prober
+lsb-release
+
 # basic packages
 python
 
